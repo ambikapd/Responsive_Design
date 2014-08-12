@@ -1,1 +1,157 @@
-Welcome to this page
+1. Define The Viewport Mega Tag
+
+The viewport meta tag modifies the browser viewing area. Therefore, the responsive website design is to define the particular viewport meta tag. The default scale will be disabled and the tag will tell the browser to use the device width as the viewport width. You can include the following meta tag in your <head>:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+In our head section let´s set the charset to UTF-8 which is also easier now in HTML5.
+
+<meta charset="UTF-8">
+
+2. Create The HTML Structure
+
+
+3. Set The Features Of Your Style Sheet
+
+The responsive website to have some basic features the same across all screen sizes, determine style features such as typeface, color, icons to be used, etc.....
+
+Media queries for different screen sizes 
+-----------------------------------------------------------------------------------------------------------------------------------
+
+ Smartphones (portrait and landscape) 
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+.........................
+
+}
+
+ Smartphones (landscape) 
+@media only screen 
+and (min-width : 321px) {
+...............................
+}
+
+Smartphones (portrait)
+@media only screen 
+and (max-width : 320px) {
+
+........................................
+ 
+}
+
+ iPads (portrait and landscape)
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+..........................................
+
+}
+
+iPads (landscape) 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+....................................
+ 
+}
+
+iPads (portrait) 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+..................................................
+ 
+}
+
+ Desktops and laptops 
+@media only screen 
+and (min-width : 1224px) {
+
+.......................................................
+ 
+}
+
+Large screens  
+@media only screen 
+and (min-width : 1824px) {
+
+................................................
+ 
+}
+
+ iPhone 4
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+........................
+
+}
+
+
+
+We should know below points
+................................................................................................................................
+
+1. FitText
+
+FitText is a jQuery plugin for flexible font sizes. The script automatically scales font depending on the width of the surrounding element.
+http://fittextjs.com/
+
+2. -prefix-free
+
+-prefix-free is a very useful script which automatically creates prefixes for CSS properties. So instead of having to write a property for each browser separately you can just write the unprefixed CSS properties.
+
+Browser support
+The target browser support is IE9+, Opera 10+, Firefox 3.5+, Safari 4+ and Chrome on desktop and Mobile Safari, Android browser, Chrome and Opera Mobile on mobile.
+http://leaverou.github.io/prefixfree/
+
+
+
+3. CSS framework
+
+CSS framework which helps you save development time by offering a flexible grid system which can be used to generate flexible responsive websites. It also comes with optimized typography and a form toolkit with theme-support.
+
+http://getbootstrap.com/
+http://www.yaml.de/
+http://foundation.zurb.com/
+
+
+4. html5shiv
+
+html5shiv is a script which should be used when creating HTML5 websites. It enables the use of HTML5 sectioning elements (e.g. section, article or header) in Internet Explorer and provides basic HTML5 styling for Internet Explorer 6-9, Safari 4.x (and iPhone 3.x), and Firefox 3.x.
+
+https://github.com/aFarkas/html5shiv
+
+
+5. Respond.js
+
+Respond.js is a script that enables responsive web design in Internet Explorer 8 and under by allowing the use of media queries.
+
+A fast & lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more)
+
+https://github.com/scottjehl/Respond
+
+6. equalize.js
+
+equalize.js helps you create boxes with equal width and height. It will adjust the height / width of an element depending on the height / width of the largest box.
+http://tsvensen.github.io/equalize.js/ 
+
+7. Responsive Nav
+
+Responsive Nav is a responsive navigation plugin without library dependencies and with fast touch screen support.
+
+http://responsive-nav.com/
+
+8. Textillate.js
+
+Textillate.js is a simple plugin to create text animations based on jQuery, animate.css and lettering.js.
+
+http://jschr.github.io/textillate/
