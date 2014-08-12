@@ -1,4 +1,4 @@
 Responsive Website
 
-From Ambika
+From Website
 =========
